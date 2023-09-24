@@ -1,5 +1,5 @@
 ---
-name: GraphicalModels
+name: CompositionalData
 topic: Compositional Data
 maintainer: Michail Tsagris
 email: mtsagris@uoc.gr
