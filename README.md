@@ -1,8 +1,8 @@
-## CRAN Task View: Empirical Graphical Models
+## CRAN Task View: Compositional Data Analysis
 
-**URL:** <https://CRAN.R-project.org/view=GraphicalModels>
+**URL:** <https://CRAN.R-project.org/view=CompositionalData>
 
-**Source file:** [GraphicalModels.md](GraphicalModels.md)
+**Source file:** [CompositionalData.md](CompositionalData.md)
 
 **Contributions:** Suggestions and improvements for this task view are very
 welcome and can be made through issues or pull requests here on GitHub or

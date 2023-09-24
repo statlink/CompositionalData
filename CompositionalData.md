@@ -1,6 +1,6 @@
 ---
 name: CompositionalData
-topic: Compositional Data
+topic: Compositional Data Analysis
 maintainer: Michail Tsagris
 email: mtsagris@uoc.gr
 version: 2023-09-24
