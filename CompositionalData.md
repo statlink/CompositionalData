@@ -26,11 +26,11 @@ categories):
 
 ### General purpose packages
 
--   `r pkg("Compositional")`: Regression, classification, contour plots, hypothesis testing and fitting of distributions for compositional data are some of the functions included. We further include functions for percentages (or proportions). 
+-   `r pkg("Compositional")`: Regression, classification, contour plots, hypothesis testing and fitting of distributions for compositional data are some of the functions included. The packages further includes functions for percentages (or proportions). 
 
 -   `r pkg("compositions")`: Provides functions for the consistent analysis of compositional data (e.g. portions of substances) and positive numbers (e.g. concentrations).
 
--   `r pkg("coda.base")`: A minimum set of functions to perform compositional data analysis using the log-ratio approach introduced by John Aitchison (1982). Main functions have been implemented in c++ for better performance.
+-   `r pkg("coda.base")`: A minimum set of functions to perform compositional data analysis using the log-ratio approach introduced by Aitchison (1982). Main functions have been implemented in C++ for better performance.
 
 -   `r pkg("easyCODA")`: Univariate and multivariate methods for compositional data analysis, based on log-ratios. Accent is given to simple pairwise log-ratios. Selection can be made of log-ratios that account for a maximum percentage of log-ratio variance. Various multivariate analyses of log-ratios are included in the package. 
 
@@ -41,9 +41,9 @@ categories):
 
 -   `r pkg("complmrob")`: Robust regression methods for compositional data. The distribution of the estimates can be approximated with various bootstrap methods. These bootstrap methods are available for the compositional as well as for standard robust regression estimates. This allows for direct comparison between them.
 
--   `r pkg("robCompositions")`: Methods for analysis of compositional data including robust methods, imputation of missing values, methods to replace rounded zeros, count zeros, methods to deal with essential zeros (), (robust) outlier detection for compositional data, (robust) principal component analysis for compositional data, (robust) factor analysis for compositional data, (robust) discriminant analysis for compositional data (Fisher rule), robust regression with compositional predictors, functional data analysis and p-splines, contingency and compositional tables and (robust) Anderson-Darling normality tests for compositional data as well as popular log-ratio transformations. In addition, visualisation and diagnostic tools are implemented as well as high and low-level plot functions for the ternary diagram.
+-   `r pkg("robCompositions")`: Methods for analysis of compositional data including robust methods, imputation of missing values, methods to replace rounded zeros, count zeros, methods to deal with essential zeros, (robust) outlier detection for compositional data, (robust) principal component analysis for compositional data, (robust) factor analysis for compositional data, (robust) discriminant analysis for compositional data (Fisher rule), robust regression with compositional predictors, functional data analysis and p-splines, contingency and compositional tables and (robust) Anderson-Darling normality tests for compositional data as well as popular log-ratio transformations. In addition, visualisation and diagnostic tools are implemented as well as high and low-level plot functions for the ternary diagram.
 
--   `r pkg("robregcc")`: We implement the algorithm estimating the parameters of the robust regression model with compositional covariates. The model simultaneously treats outliers and provides reliable parameter estimates. 
+-   `r pkg("robregcc")`: The package implements the algorithm estimating the parameters of the robust regression model with compositional covariates. The model simultaneously treats outliers and provides reliable parameter estimates. 
 
 
 ### Regression modelling
@@ -69,32 +69,32 @@ categories):
 
 -   `r pkg("coda4microbiome")`: Functions for microbiome data analysis that take into account its compositional nature. Performs variable selection through penalized regression for both, cross-sectional and longitudinal studies, and for binary and continuous outcomes. 
 
--   `r pkg("codacore")`: In the context of high-throughput genetic data, CoDaCoRe identifies a set of sparse biomarkers that are predictive of a response variable of interest. More generally, CoDaCoRe can be applied to any regression problem where the independent variable is Compositional, to derive a set of scale-invariant log-ratios that are maximally associated to a dependent variable.
+-   `r pkg("codacore")`: In the context of high-throughput genetic data, the package identifies a set of sparse biomarkers that are predictive of a response variable of interest. More generally, the package can be applied to any regression problem where the independent variable is compositional, to derive a set of scale-invariant log-ratios that are maximally associated to a dependent variable.
 
 -   `r pkg("MicrobiomeStat")`: A suite of methods for powerful and robust microbiome data analysis addressing zero-inflation, phylogenetic structure and compositional effects. The methods can be applied to the analysis of other (high-dimensional) compositional data arising from sequencing experiments.
 
 -   `r pkg("seq2R")`: This package is useful for loading '.fasta' or '.gbk' files, and for retrieving sequences from 'GenBank' dataset. This package allows to detect differences or asymmetries based on nucleotide composition by using local linear kernel smoothers. Also, it is possible to draw inference about critical points (i. e. maximum or minimum points) related with the derivative curves. Additionally, bootstrap methods have been used for estimating confidence intervals and speed computational techniques (binning techniques) have been implemented.
 
--   `r pkg("VDAP")`: Analyze Peptide Array Data and characterize peptide sequence space. Allows for high level visualization of global signal, Quality control based on replicate correlation and/or relative Kd, calculation of peptide Length/Charge/Kd parameters, Hits selection based on RFU Signal, and amino acid composition/basic motif recognition with RFU signal weighting. Basic signal trends can be used to generate peptides that follow the observed compositional trends.
+-   `r pkg("VDAP")`: The package analyzes Peptide Array Data and characterizes peptide sequence space. It aAllows for high level visualization of global signal, Quality control based on replicate correlation and/or relative Kd, calculation of peptide Length/Charge/Kd parameters, Hits selection based on RFU Signal, and amino acid composition/basic motif recognition with RFU signal weighting. Basic signal trends can be used to generate peptides that follow the observed compositional trends.
 
--   `r pkg("ZIBseq")`: Detects abundance differences across clinical conditions. Besides, it takes the sparse nature of metagenomic data into account and handles compositional data efficiently.
+-   `r pkg("ZIBseq")`: The package detects abundance differences across clinical conditions. Besides, it takes the sparse nature of metagenomic data into account and handles compositional data efficiently.
 
 
 ### Other packages
 
 -   `r pkg("alc")`: A set of tests for compositional pathologies. Tests for coherence of correlations, compositional dominance of distance with, compositional perturbation invariance and singularity of the covariation matrix.
 
--   `r pkg("ccmm")`: Estimate the direct and indirect (mediation) effects of treatment on the outcome when intermediate variables (mediators) are compositional and high-dimensional.
+-   `r pkg("ccmm")`: The package estimates the direct and indirect (mediation) effects of treatment on the outcome when intermediate variables (mediators) are compositional and high-dimensional.
 
--   `r pkg("CIM")`: Produces statistical indicators of the impact of migration on the socio-demographic composition of an area. Three measures can be used: ratios, percentages and the Duncan index of dissimilarity. The input data files are assumed to be in an origin-destination matrix format, with each cell representing a flow count between an origin and a destination area. Columns are expected to represent origins, and rows are expected to represent destinations. The first row and column are assumed to contain labels for each area. 
+-   `r pkg("CIM")`: The package produces statistical indicators of the impact of migration on the socio-demographic composition of an area. Three measures can be used: ratios, percentages and the Duncan index of dissimilarity. The input data files are assumed to be in an origin-destination matrix format, with each cell representing a flow count between an origin and a destination area. Columns are expected to represent origins, and rows are expected to represent destinations. The first row and column are assumed to contain labels for each area. 
 
 -   `r pkg("CMMs")`: A compositional mediation model for continuous outcome and binary outcomes to deal with mediators that are compositional data.
 
--   `r pkg("countprop")`: Calculates metrics of proportionality using the logit-normal multinomial model. It can also provide empirical and plugin estimates of these metrics. 
+-   `r pkg("countprop")`: The package calculates metrics of proportionality using the logit-normal multinomial model. It can also provide empirical and plugin estimates of these metrics. 
 
--   `r pkg("FlexDir")`: Provides tools to work with the Flexible Dirichlet distribution. The main features are an E-M algorithm for computing the maximum likelihood estimate of the parameter vector and a function based on conditional bootstrap to estimate its asymptotic variance-covariance matrix. It contains also functions to plot graphs, to generate random observations and to handle compositional data.
+-   `r pkg("FlexDir")`: The package provides tools to work with the Flexible Dirichlet distribution. The main features are an E-M algorithm for computing the maximum likelihood estimate of the parameter vector and a function based on conditional bootstrap to estimate its asymptotic variance-covariance matrix. It contains also functions to plot graphs, to generate random observations and to handle compositional data.
 
--   `r pkg("gmGeostats")`: Support for geostatistical analysis of multivariate data, in particular data with restrictions, e.g. positive amounts, compositions, distributional data, microstructural data, etc. It includes descriptive analysis and modelling for such data, both from a two-point Gaussian perspective and multipoint perspective.
+-   `r pkg("gmGeostats")`: The package offers support for geostatistical analysis of multivariate data, in particular data with restrictions, e.g. positive amounts, compositions, distributional data, microstructural data, etc. It includes descriptive analysis and modelling for such data, both from a two-point Gaussian perspective and multipoint perspective.
 
 -   `r pkg("lba")`: Latent budget analysis is a method for the analysis of a two-way contingency table with an exploratory variable and a response variable. It is specially designed for compositional data.
 
