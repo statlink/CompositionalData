@@ -104,8 +104,6 @@ categories):
 -   [gR initiative homepage and mailing list](http://www.R-project.org/gR/)
 -   [Bioconductor](http://www.Bioconductor.org/)
 
-### Other resources
-
 -   [CRAN Task View: Cluster](https://cran.r-project.org/view=Cluster)
 -   [CRAN Task View: MachineLearning](https://cran.r-project.org/view=MachineLearning)
 -   [CRAN Task View: Robust](https://cran.r-project.org/view=Robust)
