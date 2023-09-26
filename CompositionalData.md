@@ -3,30 +3,23 @@ name: CompositionalData
 topic: Compositional Data Analysis
 maintainer: Michail Tsagris
 email: mtsagris@uoc.gr
-version: 2023-09-24
+version: 2023-09-26
 source: https://github.com/cran-task-views/CompositionalData/
 ---
 
 [Wikipedia](http://en.wikipedia.org/wiki/CompositionalData) says: 
 
-*In statistics, compositional data are quantitative descriptions of the parts of some whole, conveying relative information. Mathematically, compositional data is represented by points on a simplex. Measurements involving probabilities, proportions, percentages, and ppm can all be thought of as compositional data.*
-
-#A supplementary view is that graphical models are based on exploiting
-#conditional independencies for constructing complex stochastic models
-#with a modular structure. That is, a complex stochastic model is built
-#up by simpler building blocks. 
+*Compositional data are positive multivariate data where the sum of the values of each vector sums to the same constant, typically taken to be unity for convenience purposes.*
 
 This task view is a collection of packages intended to supply R code to deal with 
-Compositional data analysis.
-
-The packages can be roughly structured into the following topics
+Compositional data analysis. The packages can be roughly structured into the following topics
 (although several of them have functionalities which go across these
 categories):
 
 
 ### General purpose packages
 
--   `r pkg("Compositional")`: Regression, classification, contour plots, hypothesis testing and fitting of distributions for compositional data are some of the functions included. The packages further includes functions for percentages (or proportions). 
+-   `r pkg("Compositional")`: The package performs regression, classification, contour plots, hypothesis testing and fitting of distributions with or without transformations. The packages further includes functions for percentages (or proportions). 
 
 -   `r pkg("compositions")`: Provides functions for the consistent analysis of compositional data (e.g. portions of substances) and positive numbers (e.g. concentrations).
 
@@ -112,4 +105,11 @@ categories):
 ### Links
 -   [gR initiative homepage and mailing list](http://www.R-project.org/gR/)
 -   [Bioconductor](http://www.Bioconductor.org/)
+
+### Other resources
+
+-   [CRAN Task View: Cluster](https://cran.r-project.org/view=Cluster)
+-   [CRAN Task View: MachineLearning](https://cran.r-project.org/view=MachineLearning)
+-   [CRAN Task View: Robust](https://cran.r-project.org/view=Robust)
+-   [CRAN Task View: SpatioTemporal](https://cran.r-project.org/view=SpatioTemporal)
 
