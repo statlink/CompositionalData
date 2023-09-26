@@ -7,7 +7,7 @@ version: 2023-09-26
 source: https://github.com/cran-task-views/CompositionalData/
 ---
 
-*Compositional data are positive multivariate data where the sum of the values of each vector sums to the same constant, typically taken to be unity for convenience purposes. In this case, their sample space is the standard simplex. The most popular approach is to use the logarithm transformation applied to ratios of the variables, initially suggested by [Aitchison in 1982](https://doi.org/10.1111/j.2517-6161.1982.tb01195.x). However this approach has drawbacks and for this many alternative transformations have been developed throughout the years. Additionally, the literature numbers many different methodologies and approaches, some of which are pucluicly available in the packages listed below.*
+*Compositional data are positive multivariate data where the sum of the values of each vector sums to the same constant, typically taken to be unity for convenience purposes. In this case, their sample space is the standard simplex. The most popular approach is to use the logarithm transformation applied to ratios of the variables, initially suggested by [Aitchison  (1982)](https://doi.org/10.1111/j.2517-6161.1982.tb01195.x). However this approach has drawbacks and for this many alternative transformations have been developed throughout the years. Additionally, the literature numbers many different methodologies and approaches, some of which are publicly available in the packages listed below.*
 
 This task view is a collection of packages intended to supply R code to deal with 
 Compositional data analysis. The packages can be roughly structured into the following topics
