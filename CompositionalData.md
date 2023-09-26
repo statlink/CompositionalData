@@ -7,8 +7,6 @@ version: 2023-09-26
 source: https://github.com/cran-task-views/CompositionalData/
 ---
 
-[Wikipedia](http://en.wikipedia.org/wiki/CompositionalData) says: 
-
 *Compositional data are positive multivariate data where the sum of the values of each vector sums to the same constant, typically taken to be unity for convenience purposes.*
 
 This task view is a collection of packages intended to supply R code to deal with 
