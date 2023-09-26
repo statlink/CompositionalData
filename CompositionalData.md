@@ -17,18 +17,18 @@ categories):
 
 ### General purpose packages
 
--   `r pkg("Compositional")`: The package performs regression, classification, contour plots, hypothesis testing and fitting of distributions with or without transformations. The packages further includes functions for percentages (or proportions). 
+-   `r pkg("Compositional", priority = "core")`: The package performs regression, classification, contour plots, hypothesis testing and fitting of distributions with or without transformations. The packages further includes functions for percentages (or proportions). 
 
--   `r pkg("compositions")`: Provides functions for the consistent analysis of compositional data (e.g. portions of substances) and positive numbers (e.g. concentrations).
+-   `r pkg("compositions", priority = "core")`: Provides functions for the consistent analysis of compositional data (e.g. portions of substances) and positive numbers (e.g. concentrations).
 
--   `r pkg("coda.base")`: A minimum set of functions to perform compositional data analysis using the log-ratio approach introduced by Aitchison (1982). Main functions have been implemented in C++ for better performance.
+-   `r pkg("coda.base", priority = "core")`: A minimum set of functions to perform compositional data analysis using the log-ratio approach introduced by Aitchison (1982). Main functions have been implemented in C++ for better performance.
 
--   `r pkg("easyCODA")`: Univariate and multivariate methods for compositional data analysis, based on log-ratios. Accent is given to simple pairwise log-ratios. Selection can be made of log-ratios that account for a maximum percentage of log-ratio variance. Various multivariate analyses of log-ratios are included in the package. 
+-   `r pkg("easyCODA", priority = "core")`: Univariate and multivariate methods for compositional data analysis, based on log-ratios. Accent is given to simple pairwise log-ratios. Selection can be made of log-ratios that account for a maximum percentage of log-ratio variance. Various multivariate analyses of log-ratios are included in the package. 
 
--   `r pkg("ToolsForCoDa")`: Provides functions for multivariate analysis with compositional data. Includes a function for doing compositional canonical correlation analysis. This analysis requires two data matrices of compositions, which can be adequately transformed and used as entries in a specialized program for canonical correlation analysis, that is able to deal with singular covariance matrices. A function for log-ratio principal component analysis with condition number computations has been added to the package.
+-   `r pkg("ToolsForCoDa", priority = "core")`: Provides functions for multivariate analysis with compositional data. Includes a function for doing compositional canonical correlation analysis. This analysis requires two data matrices of compositions, which can be adequately transformed and used as entries in a specialized program for canonical correlation analysis, that is able to deal with singular covariance matrices. A function for log-ratio principal component analysis with condition number computations has been added to the package.
 
 
-### Robust methods for compositional data analysis
+### Robust methods 
 
 -   `r pkg("complmrob")`: Robust regression methods for compositional data. The distribution of the estimates can be approximated with various bootstrap methods. These bootstrap methods are available for the compositional as well as for standard robust regression estimates. This allows for direct comparison between them.
 
