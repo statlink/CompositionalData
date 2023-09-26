@@ -98,6 +98,17 @@ categories):
 -   `r pkg("zetadiv")`: Functions to compute compositional turnover using zeta-diversity by [ Hui and  McGeoch (2014)](https://www.journals.uchicago.edu/doi/pdf/10.1086/678125), the number of species shared by multiple assemblages. The package includes functions to compute zeta-diversity for a specific number of assemblages and to compute zeta-diversity for a range of numbers of assemblages. It also includes functions to explain how zeta-diversity varies with distance and with differences in environmental variables between assemblages, using generalised linear models, linear models with negative constraints, generalised additive models,shape constrained additive models, and I-splines.
 
 
+### Ternary diagrams
+
+-   `r pkg("Ternary", priority = "core")`: Plots ternary diagrams (simplex plots/Gibbs triangles) and Holdridge life zone plots (see [Holdridge (1947)](https://www.science.org/doi/10.1126/science.105.2727.367)) using the standard graphics functions. An alternative to 'ggtern', which uses the 'ggplot2' family of plotting functions. Includes a 'Shiny' user interface for point-and-click ternary plotting. 
+
+-   `r pkg("ggtern", priority = "core")`: The package extends the functionality of 'ggplot2', providing the capability to plot ternary diagrams for (subset of) the 'ggplot2' geometries. Additionally, 'ggtern' has implemented several new geometries which are unavailable to the standard 'ggplot2' release. For further examples and documentation, please proceed to the 'ggtern' website.
+
+-   `r pkg("isopleuros", priority = "core")`: Ternary plots made simple. This package allows to create ternary plots using 'graphics'. It provides functions to display the data in the ternary space, to add or tune graphical elements and to display statistical summaries. It also includes common ternary diagrams which are useful for the archaeologist (e.g. soil texture charts, ceramic phase diagram).
+
+-   `r pkg("provenance")`: The package includes tools to plot compositional and count data on ternary diagrams and point-counting data on radial plots, to calculate the sample size required for specified levels of statistical precision, and to assess the effects of hydraulic sorting on detrital compositions. Includes an intuitive query-based user interface for users who are not proficient in R.
+
+
 ### Links
 -   [gR initiative homepage and mailing list](http://www.R-project.org/gR/)
 -   [Bioconductor](http://www.Bioconductor.org/)
