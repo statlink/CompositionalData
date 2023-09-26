@@ -7,7 +7,7 @@ version: 2023-09-26
 source: https://github.com/cran-task-views/CompositionalData/
 ---
 
-*Compositional data are positive multivariate data where the sum of the values of each vector sums to the same constant, typically taken to be unity for convenience purposes.*
+*Compositional data are positive multivariate data where the sum of the values of each vector sums to the same constant, typically taken to be unity for convenience purposes. In this case, their sample space is the standard simplex. The most popular approach is to use the logarithm transformation applied to ratios of the variables, initially suggested by Aitchison in 1982 `r doi("10.1111/j.2517-6161.1982.tb01195.x")`. However this approach has drawbacks and for this many alternative transformations have been developed throughout the years. Additionally, the literature numbers many different methodologies and approaches, some of which are pucluicly available in the packages listed below.*
 
 This task view is a collection of packages intended to supply R code to deal with 
 Compositional data analysis. The packages can be roughly structured into the following topics
@@ -95,7 +95,7 @@ categories):
 
 -   `r pkg("SARP.compo")`: Provides a set of functions to interpret changes in compositional data based on a network representation of all pairwise ratio comparisons: computation of all pairwise ratios, construction of a p-value matrix of all pairwise tests of these ratios between conditions, conversion of this matrix to a network.
 
--   `r pkg("zCompositions")`: Principled methods for the imputation of zeros, left-censored and missing data in compositional data sets
+-   `r pkg("zCompositions")`: Principled methods for the imputation of zeros, left-censored and missing data in compositional data sets.
 
 -   `r pkg("zetadiv")`: Functions to compute compositional turnover using zeta-diversity, the number of species shared by multiple assemblages. The package includes functions to compute zeta-diversity for a specific number of assemblages and to compute zeta-diversity for a range of numbers of assemblages. It also includes functions to explain how zeta-diversity varies with distance and with differences in environmental variables between assemblages, using generalised linear models, linear models with negative constraints, generalised additive models,shape constrained additive models, and I-splines.
 
