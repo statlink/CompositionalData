@@ -28,7 +28,7 @@ categories):
 
 ### Robust methods 
 
--   `r pkg("complmrob")`: Robust regression methods for compositional data. The distribution of the estimates can be approximated with various bootstrap methods. These bootstrap methods are available for the compositional as well as for standard robust regression estimates. This allows for direct comparison between them. See [Hron, Filzmoser and Thompson (2012)](https://www.tandfonline.com/doi/abs/10.1080/02664763.2011.644268).
+-   `r pkg("complmrob")`: Robust regression methods for compositional data. The distribution of the estimates can be approximated with various bootstrap methods. These bootstrap methods are available for the compositional as well as for standard robust regression estimates. This allows for direct comparison between them. See [Hron, Filzmoser and Thompson (2012)](https://www.tandfonline.com/doi/abs/10.1080/02664763.2011.644268). 
 
 -   `r pkg("robCompositions", priority = "core")`: Methods for analysis of compositional data including robust methods, imputation of missing values, methods to replace rounded zeros, count zeros, methods to deal with essential zeros, (robust) outlier detection for compositional data, (robust) principal component analysis for compositional data, (robust) factor analysis for compositional data, (robust) discriminant analysis for compositional data (Fisher rule), robust regression with compositional predictors, functional data analysis and p-splines, contingency and compositional tables and (robust) Anderson-Darling normality tests for compositional data as well as popular log-ratio transformations. In addition, visualisation and diagnostic tools are implemented as well as high and low-level plot functions for the ternary diagram. References include [Filzmoser, Hron and Templ (2018) ](https://link.springer.com/book/10.1007/978-3-319-96422-5) and [Hron et al. (2016)](https://www.sciencedirect.com/science/article/abs/pii/S0167947315001644?via%3Dihub).
 
@@ -43,9 +43,13 @@ categories):
 
 -   `r pkg("Compack")`: Regression methodologies with compositional covariates, including (1) sparse log-contrast regression with compositional covariates by [Lin et al. (2014)](https://academic.oup.com/biomet/article-abstract/101/4/785/1775476?redirectedFrom=fulltext&login=false), and (2) sparse log-contrast regression with functional compositional predictors by [Sun et al. (2020)](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-14/issue-3/Log-contrast-regression-with-functional-compositional-predictors--Linking-preterm/10.1214/20-AOAS1357.full).
 
+-   `r pkg("DirichletReg")`: The package implements Dirichlet regression models. 
+
 -   `r pkg("FLORAL")`: Log-ratio lasso regression for continuous, binary, and survival outcomes with compositional features by [Fei et al. (2023)](https://www.biorxiv.org/content/10.1101/2023.05.02.538599v1).
 
 -   `r pkg("ocomposition")`: Regression model where the response variable is a rank-indexed compositional vector (non-negative values that sum up to one and are ordered from the largest to the smallest). Parameters are estimated in the Bayesian framework using MCMC methods. The relevant paper is [Rozenas (2012)](https://www.jstor.org/stable/23260174)
+
+-   `r pkg("zoid")`: Fits Dirichlet regression and zero-and-one inflated Dirichlet regression with Bayesian methods implemented in Stan. These models are sometimes referred to as trinomial mixture models; covariates and overdispersion can optionally be included. 
 
 
 ### Bioiformatics related packages
@@ -91,6 +95,11 @@ categories):
 
 -   `r pkg("multilevelcoda")`: Implements Bayesian multilevel modelling for compositional data in a multilevel framework. Compute multilevel compositional data and isometric log-ratio at between and within-person levels, fit Bayesian multilevel models for compositional predictors and outcomes, and run post-hoc analyses such as isotemporal substitution models.
 
+-   `r pkg("NBDdirichlet")`: Implements NBD-Dirichlet Model of Consumer Buying Behavior for Marketing
+Research. The relevant paper is [Goodhardt, Ehrenberg and Chatfield (1984)](https://doi.org/10.2307/2981696).
+
+-   `r pkg("rBeta2009")`: The packate contains a function for generating Dirichlet random vectors using a C translation. The relevant paper is [Hung, Balakrishnan and Cheng (2011)](https://doi.org/10.1080/00949650903409999).
+
 -   `r pkg("SARP.compo")`: Provides a set of functions to interpret changes in compositional data based on a network representation of all pairwise ratio comparisons: computation of all pairwise ratios, construction of a p-value matrix of all pairwise tests of these ratios between conditions, conversion of this matrix to a network.
 
 -   `r pkg("ToolsForCoDa")`: Provides functions for multivariate analysis with compositional data. Includes a function for doing compositional canonical correlation analysis. This analysis requires two data matrices of compositions, which can be adequately transformed and used as entries in a specialized program for canonical correlation analysis, that is able to deal with singular covariance matrices. A function for log-ratio principal component analysis with condition number computations has been added to the package. The methodology is described in [Graffelman et al. (2017)](https://www.biorxiv.org/content/10.1101/144584v1).
@@ -110,8 +119,6 @@ categories):
 
 
 ### Links
--   [gR initiative homepage and mailing list](http://www.R-project.org/gR/)
--   [Bioconductor](http://www.Bioconductor.org/)
 
 -   [CRAN Task View: Cluster](https://cran.r-project.org/view=Cluster)
 -   [CRAN Task View: MachineLearning](https://cran.r-project.org/view=MachineLearning)
