@@ -52,7 +52,7 @@ categories):
 -   `r pkg("zoid")`: Fits Dirichlet regression and zero-and-one inflated Dirichlet regression with Bayesian methods implemented in Stan. These models are sometimes referred to as trinomial mixture models; covariates and overdispersion can optionally be included. 
 
 
-### Bioiformatics related packages
+### Bioiformatics/ecology related packages
 
 -   `r pkg("ampir")`: A toolkit to predict antimicrobial peptides from protein sequences on a genome-wide scale. It incorporates two support vector machine models ("precursor" and "mature") trained on publicly available antimicrobial peptide data using calculated physico-chemical and compositional sequence properties. In order to support genome-wide analyses, these models are designed to accept any type of protein as input and calculation of compositional properties has been optimised for high-throughput use. For more information see [Fingerhut et al. (2020)](https://academic.oup.com/bioinformatics/article/36/21/5262/5873588?login=false).
 
@@ -67,6 +67,8 @@ categories):
 -   `r pkg("lnmCluster")`: An implementation of logistic normal multinomial (LNM) clustering. It is an extension of the LNM mixture model proposed by [Fang and Subedi (2020)](https://www.nature.com/articles/s41598-023-41318-8), and is designed for clustering compositional data. The package includes 3 extended models: LNM Factor Analyzer, LNM Bicluster Mixture Model and Penalized LNM Factor Analyzer. Details for model assumptions and interpretation can be found in the papers: [Tu and Subedi (2021)](https://arxiv.org/abs/2101.01871) and [Tu and Subedi (2022)](https://onlinelibrary.wiley.com/doi/10.1002/sam.11555). 
 
 -   `r pkg("MicrobiomeStat")`: A suite of methods for powerful and robust microbiome data analysis addressing zero-inflation, phylogenetic structure and compositional effects [Zhou et al. (2022)](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02655-5). The methods can be applied to the analysis of other (high-dimensional) compositional data arising from sequencing experiments.
+
+-   `r pkg("QFASA")`: Accurate estimates of the diets of predators are required in many areas of ecology, but for many species current methods are imprecise, limited to the last meal, and often biased. The diversity of fatty acids and their patterns in organisms, coupled with the narrow limitations on their biosynthesis, properties of digestion in monogastric animals, and the prevalence of large storage reservoirs of lipid in many predators, led to the development of quantitative fatty acid signature analysis (QFASA) to study predator diets. Some relevant papers are [Aitchison (1992)](https://link.springer.com/article/10.1007/BF00891269), [Stewart, Iverson and Field (2014)](https://doi.org/10.1007/s10651-014-0280-9) and [Stewart (2017)](https://doi.org/10.1080/02664763.2016.1193846).
 
 -   `r pkg("VDAP")`: The package analyzes Peptide Array Data and characterizes peptide sequence space. It aAllows for high level visualization of global signal, Quality control based on replicate correlation and/or relative Kd, calculation of peptide Length/Charge/Kd parameters, Hits selection based on RFU Signal, and amino acid composition/basic motif recognition with RFU signal weighting. Basic signal trends can be used to generate peptides that follow the observed compositional trends.
 
