@@ -34,6 +34,7 @@ categories):
 
 -   `r pkg("robregcc")`: The package implements an algorithm estimating the parameters of the robust regression model with compositional covariates. The model simultaneously treats outliers and provides reliable parameter estimates. The algorithm is described in [Mishra and Mueller (2019)](https://doi.org/10.48550/arXiv.1909.04990).
 
+- See also the CTV view("Robust") for more robust techniques.  
 
 ### Regression modelling
 
