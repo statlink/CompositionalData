@@ -48,9 +48,10 @@ categories):
 
 -   `r pkg("FLORAL")`: Log-ratio lasso regression for continuous, binary, and survival outcomes with compositional features by [Fei et al. (2023)](https://doi.org/10.1101/2023.05.02.538599).
 
--   `r pkg("ocomposition")`: Regression model where the response variable is a rank-indexed compositional vector (non-negative values that sum up to one and are ordered from the largest to the smallest). Parameters are estimated in the Bayesian framework using MCMC methods. The relevant paper is [Rozenas and  Alvarez (2012)](https://doi.org/10.1093/pan/mpr041)
+-   `r pkg("ocomposition")`: Regression model where the response variable is a rank-indexed compositional vector (non-negative values that sum up to one and are ordered from the largest to the smallest). Parameters are estimated in the Bayesian framework using MCMC methods. The relevant paper is [Rozenas and  Alvarez (2012)](https://doi.org/10.1093/pan/mpr041). See also the CTV view("Bayesian") for more packages dedicated to Bayesian statistics.  
 
--   `r pkg("zoid")`: Fits Dirichlet regression and zero-and-one inflated Dirichlet regression with Bayesian methods implemented in Stan. These models are sometimes referred to as trinomial mixture models; covariates and overdispersion can optionally be included. 
+-   `r pkg("zoid")`: Fits Dirichlet regression and zero-and-one inflated Dirichlet regression with Bayesian methods implemented in Stan. These models are sometimes referred to as trinomial mixture models; covariates and overdispersion can optionally be included. See also the CTV view("Bayesian") for more packages dedicated to Bayesian statistics.  
+
 
 
 ### Bioiformatics/ecology related packages
@@ -59,17 +60,25 @@ categories):
 
 -   `r pkg("ArArRedux")`: Processes noble gas mass spectrometer data to determine the isotopic composition of argon (comprised of Ar36, Ar37, Ar38, Ar39 and Ar40) released from neutron-irradiated potassium-bearing minerals. Then uses these compositions to calculate precise and accurate geochronological ages for multiple samples as well as the covariances between them. Error propagation is done in matrix form, which jointly treats all samples and all isotopes simultaneously at every step of the data reduction process. Includes methods for regression of the time-resolved mass spectrometer signals to t=0 ('time zero') for both single- and multi-collector instruments, blank correction, mass fractionation correction, detector intercalibration, decay corrections, interference corrections, interpolation of the irradiation parameter between neutron fluence monitors, and (weighted mean) age calculation. All operations are performed on the logs of the ratios between the different argon isotopes so as to properly treat them as 'compositional data'.
 
+-   `bioc("banocc")`: This is a Bioconductor package designed for compositional data, where each sample sums to one. It infers the approximate covariance of the unconstrained data using a Bayesian model coded with `r pkg("ArArRedux")`. It provides as output the "stanfit" object as well as posterior median and credible interval estimates for each correlation element. See also the CTV view("Bayesian") for more packages dedicated to Bayesian statistics.  
+
 -   `r pkg("BRACoD.R")`: The goal of this method is to identify associations between bacteria and an environmental variable in 16S or other compositional data. The environmental variable is any variable which is measure for each microbiome sample, for example, a butyrate measurement paired with every sample in the data. Microbiome data is compositional, meaning that the total abundance of each sample sums to 1, and this introduces severe statistical distortions. This method takes a Bayesian approach to correcting for these statistical distortions, in which the total abundance is treated as an unknown variable. This package runs the python implementation using reticulate.
+See also the CTV view("Bayesian") for more packages dedicated to Bayesian statistics.  
 
 -   `r pkg("coda4microbiome")`: Functions for microbiome data analysis that take into account its compositional nature. Performs variable selection through penalized regression for both, cross-sectional and longitudinal studies, and for binary and continuous outcomes. For more information see [Bokulich et al. (2016)](https://doi.org/10.1126/scitranslmed.aad7121).
 
 -   `r pkg("codacore")`: In the context of high-throughput genetic data, the package identifies a set of sparse biomarkers that are predictive of a response variable of interest [Gordon-Rodriguez, Quinn and Cunningham (2022)](https://academic.oup.com/bioinformatics/article/38/1/157/6366546?login=false). More generally, the package can be applied to any regression problem where the independent variable is compositional, to derive a set of scale-invariant log-ratios that are maximally associated to a dependent variable.
+
+-   `bioc("banocc")`: This is a Bioconductor package and contains the explorative ordination method that combines quasi-likelihood estimation, compositional regression models and latent variable models for integrative visualization of several omics datasets. Both unconstrained and constrained integration are available. The results are shown as interpretable, compositional multiplots.
 
 -   `r pkg("lnmCluster")`: An implementation of logistic normal multinomial (LNM) clustering. It is an extension of the LNM mixture model proposed by [Fang and Subedi (2020)](https://doi.org/10.1038/s41598-023-41318-8), and is designed for clustering compositional data. The package includes 3 extended models: LNM Factor Analyzer, LNM Bicluster Mixture Model and Penalized LNM Factor Analyzer. Details for model assumptions and interpretation can be found in the papers: [Tu and Subedi (2021)](https://doi.org/10.48550/arXiv.2101.01871) and [Tu and Subedi (2022)](https://doi.org/10.1002/sam.11555). See also the CTV view("Cluster").
 
 -   `r pkg("MicrobiomeStat")`: A suite of methods for powerful and robust microbiome data analysis addressing zero-inflation, phylogenetic structure and compositional effects [Zhou et al. (2022)](https://doi.org/10.1186/s13059-022-02655-5). The methods can be applied to the analysis of other (high-dimensional) compositional data arising from sequencing experiments.
 
 -   `r pkg("QFASA")`: Accurate estimates of the diets of predators are required in many areas of ecology, but for many species current methods are imprecise, limited to the last meal, and often biased. The diversity of fatty acids and their patterns in organisms, coupled with the narrow limitations on their biosynthesis, properties of digestion in monogastric animals, and the prevalence of large storage reservoirs of lipid in many predators, led to the development of quantitative fatty acid signature analysis (QFASA) to study predator diets. Some relevant papers are [Aitchison (1992)](https://doi.org/10.1007/BF00891269), [Stewart, Iverson and Field (2014)](https://doi.org/10.1007/s10651-014-0280-9) and [Stewart (2017)](https://doi.org/10.1080/02664763.2016.1193846).
+
+-   `bioc("scDDboost")`: This is a Bioconductor package to analyze changes in the distribution of single-cell expression data between two experimental conditions. Compared to other methods that assess differential expression, scDDboost benefits uniquely from information conveyed by the clustering of cells into cellular subtypes. Through a novel empirical Bayesian formulation it calculates gene-specific posterior probabilities that the marginal expression distribution is the same (or different) between the two conditions. The implementation in scDDboost treats gene-level expression data within each condition as a mixture of negative binomial distributions.
+See also the CTV view("Bayesian") for more packages dedicated to Bayesian statistics.  
 
 -   `r pkg("VDAP")`: The package analyzes Peptide Array Data and characterizes peptide sequence space. It aAllows for high level visualization of global signal, Quality control based on replicate correlation and/or relative Kd, calculation of peptide Length/Charge/Kd parameters, Hits selection based on RFU Signal, and amino acid composition/basic motif recognition with RFU signal weighting. Basic signal trends can be used to generate peptides that follow the observed compositional trends.
 
@@ -96,7 +105,7 @@ categories):
 
 -   `r pkg("lba")`: Latent budget analysis is a method for the analysis of a two-way contingency table with an exploratory variable and a response variable. It is specially designed for compositional data. The package is based on the PhD thesis of an der Ark (1999) at the University of Utrecht titled "Contributions to Latent Budget Analysis, a tool for the analysis of compositional data".
 
--   `r pkg("multilevelcoda")`: Implements Bayesian multilevel modelling for compositional data in a multilevel framework. Compute multilevel compositional data and isometric log-ratio at between and within-person levels, fit Bayesian multilevel models for compositional predictors and outcomes, and run post-hoc analyses such as isotemporal substitution models.
+-   `r pkg("multilevelcoda")`: Implements Bayesian multilevel modelling for compositional data in a multilevel framework. Compute multilevel compositional data and isometric log-ratio at between and within-person levels, fit Bayesian multilevel models for compositional predictors and outcomes, and run post-hoc analyses such as isotemporal substitution models. See also the CTV view("Bayesian") for more packages dedicated to Bayesian statistics.  
 
 -   `r pkg("NBDdirichlet")`: Implements NBD-Dirichlet Model of Consumer Buying Behavior for Marketing
 Research. The relevant paper is [Goodhardt, Ehrenberg and Chatfield (1984)](https://doi.org/10.2307/2981696).
@@ -123,6 +132,7 @@ Research. The relevant paper is [Goodhardt, Ehrenberg and Chatfield (1984)](http
 
 ### Links
 
+-   [CRAN Task View: Bayesian](https://cran.r-project.org/view=Bayesian)
 -   [CRAN Task View: Cluster](https://cran.r-project.org/view=Cluster)
 -   [CRAN Task View: MachineLearning](https://cran.r-project.org/view=MachineLearning)
 -   [CRAN Task View: Robust](https://cran.r-project.org/view=Robust)
